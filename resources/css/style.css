@@ -26,17 +26,76 @@ html {
   margin: 0 auto;
 }
 
+section {
+  padding: 90px 0;
+}
+
 /*---------------------------*/
 /* headings */
 /*---------------------------*/
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
 h1 {
   margin: 0 0 20px 0;
   color: #fff;
   font-size: 250%;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #ff5722;
+  content: ' ';
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.box {
+  padding: 1%;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 140%;
+}
+
+/*---------------------------*/
+/* paragraph */
+/*---------------------------*/
+.long-paragraph {
+  line-height: 145%;
+  width: 85%;
+  margin: 10%;
+}
+
+/*---------------------------*/
+/* icons */
+/*---------------------------*/
+.big-icon {
+  font-size: 250%;
+  display: block;
+  color: #ff5722;
+  margin-bottom: 10px;
 }
 
 /*---------------------------*/
