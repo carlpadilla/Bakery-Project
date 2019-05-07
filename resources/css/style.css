@@ -67,7 +67,7 @@ h2:after {
   content: ' ';
   width: 200px;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .box {
@@ -84,8 +84,12 @@ h2:after {
 /*---------------------------*/
 .long-paragraph {
   line-height: 145%;
-  width: 85%;
-  margin: 10%;
+  width: 95%;
+  margin: 5%;
+}
+
+.section-features .long-paragraph {
+  margin-bottom: 30px;
 }
 
 /*---------------------------*/
@@ -194,4 +198,43 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #ff5722;
+}
+
+/*---------------------------*/
+/* cakes */
+/*---------------------------*/
+
+.section-treats {
+  padding: 0;
+}
+
+.cakes {
+  list-style: none;
+  widows: 100%;
+}
+
+.cakes li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.cake-img {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.cake-img img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.cake-img img:hover {
+  opacity: 1;
+  transform: scale(1.03);
 }
