@@ -8,13 +8,15 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: fff;
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 /*---------------------------*/
@@ -389,4 +391,51 @@ footer p {
 .footer-nav li a:hover,
 .footer-nav li a:active {
   color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* Tablets */
+@media (max-width: 800px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+}
+
+/* Smart Phones */
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px o;
+  }
+
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  ul.social {
+    padding: 20px 0;
+  }
+  .main-nav {
+    display: none;
+  }
 }
